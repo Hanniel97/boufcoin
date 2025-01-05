@@ -103,6 +103,9 @@ export interface TableState {
 
 export interface VenteState {
     _id: string,
+    nom: string,
+    telephone: string,
+    type: string,
     table: {
         _id: string,
         numero: number,
