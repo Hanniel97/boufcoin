@@ -405,7 +405,7 @@ const OrderPage: React.FC = () => {
                                 <th className="min-w-[100px] py-4 font-medium text-black dark:text-white">
                                     Quantité
                                 </th>
-                                <th className="min-w-[100px] py-4 font-medium text-black dark:text-white">
+                                <th className="min-w-[50px] py-4 font-medium text-black dark:text-white">
                                     Prix
                                 </th>
                                 <th className="w-[10px] py-4 font-medium text-black dark:text-white">
@@ -428,7 +428,7 @@ const OrderPage: React.FC = () => {
                                             {item.quantity}
                                         </p>
                                     </td>
-                                    <td className="min-w-[100px] border-b border-[#eee] py-2 dark:border-strokedark">
+                                    <td className="min-w-[50px] border-b border-[#eee] py-2 dark:border-strokedark">
                                         <p className="text-black dark:text-white">
                                             {item.prixVente * item.quantity} FCFA
                                         </p>
